@@ -1,5 +1,23 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+}
+
+body {
+  background-image: url("../image/city.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
 * {
   box-sizing: border-box;
+  font-family: myFirstFont;
 }
 
 .row::after {
@@ -11,10 +29,6 @@
 [class*="col-"] {
   float: left;
   padding: 15px;
-}
-
-html {
-  font-family: "Lucida Sans", sans-serif;
 }
 
 .header {
@@ -30,11 +44,16 @@ html {
 }
 
 .menu li {
+  border-radius: 25px;
   padding: 8px;
   margin-bottom: 7px;
   background-color: #33b5e5;
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 
 .menu li:hover {
@@ -42,12 +61,17 @@ html {
 }
 
 .aside {
+  border-radius: 25px;
   background-color: #33b5e5;
   padding: 15px;
   color: #ffffff;
   text-align: center;
   font-size: 14px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 
 .footer {
