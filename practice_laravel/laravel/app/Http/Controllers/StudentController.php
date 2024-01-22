@@ -76,7 +76,7 @@ class StudentController extends Controller
             $extFile = $request->image->getClientOriginalExtension();
             $namaFile = 'user-' . time() . "." . $extFile;
             $path = $request->image->move('assets/images', $namaFile);
-            $student->image = $path;
+            $mahasiswa->image = $path;
         }
         $student->save();
         $request->session()->flash('pesan', 'Perubahan data berhasil');
