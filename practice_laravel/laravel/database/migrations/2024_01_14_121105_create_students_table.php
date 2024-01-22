@@ -16,7 +16,8 @@ return new class extends Migration
             $table->integer('nim'); 
             $table->string('name'); 
             $table->char('gender',1); 
-            $table->string('departement'); 
+            $table->string('departement');
+            $table->string('image'); 
             $table->text('address')->nullable(); 
             $table->timestamps(); 
             }); 
