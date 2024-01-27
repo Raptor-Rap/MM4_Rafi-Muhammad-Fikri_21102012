@@ -282,7 +282,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <img src="{{ url('') }}/laravel/vendor/almasaeed2010/adminlte/dist/img/1702272553355 (1).jpeg"
                                     class="user-image" alt="User Image">
-                                <span class="hidden-xs">Agyl Restu Hermanto</span>
+                                <span class="hidden-xs">Rafi Muhammad Fikri</span>
                             </a>
                             <ul class="dropdown-menu">
                                 <!-- User image -->
@@ -291,7 +291,7 @@
                                         class="img-circle" alt="User Image">
 
                                     <p>
-                                        Agyl Restu Hermanto - Web Developer
+                                        Rafi Muhammad Fikri - Web Developer
                                         <small>Member since Nov. 2012</small>
                                     </p>
                                 </li>
@@ -340,7 +340,7 @@
                             class="img-circle" alt="User Image">
                     </div>
                     <div class="pull-left info">
-                        <p>Agyl Restu Hermanto</p>
+                        <p>Rafi Muhammad Fikri</p>
                         <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
                     </div>
                 </div>
@@ -705,7 +705,7 @@
                                         <a href="#" class="name">
                                             <small class="text-muted pull-right"><i class="fa fa-clock-o"></i>
                                                 5:15</small>
-                                            Agyl Restu Hermanto
+                                            Rafi Muhammad Fikri
                                         </a>
                                         I would like to meet you to discuss the latest news about
                                         the arrival of the new theme. They say it is going to be one the

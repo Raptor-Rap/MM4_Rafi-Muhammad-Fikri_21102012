@@ -7,7 +7,7 @@
           <img src="{{ url('') }}/laravel/vendor/almasaeed2010/adminlte/dist/img/1702272553355 (1).jpeg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Agyl Restu Hermanto</p>
+          <p>Rafi Muhammad Fikri</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
